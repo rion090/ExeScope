@@ -67,7 +67,7 @@ Overall Risk Level: HIGH
 
 ## Sample files
 
-The `/samples` folder contains example Regshot and Procmon outputs from a test run against a benign 7-Zip installer, included for reference and to demonstrate expected input formatting.
+A sample Regshot output (`.txt`) from a test run against a benign 7-Zip installer is included in the repo root for reference and to demonstrate expected input formatting. The corresponding Procmon `.csv` export was too large to include here, but the format expected is described above.
 
 ## Limitations & planned improvements
 
