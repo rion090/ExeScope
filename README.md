@@ -8,7 +8,7 @@ ExeScope is a lightweight Python tool that analyzes sandboxed execution artifact
 2. **Regshot** captures a before/after diff of the Windows registry.
 3. **Procmon** captures live process, file, and registry activity during execution.
 4. Both outputs are exported from the VM to the host machine.
-5. `exescope.py` parses both files and flags behaviors commonly associated with malicious activity, producing a combined risk score and severity rating.
+5. `analyzer.py` parses both files and flags behaviors commonly associated with malicious activity, producing a combined risk score and severity rating.
 
 ## What it detects
 
@@ -39,7 +39,7 @@ Each detected behavior contributes to a weighted risk score, which is combined i
 ## Usage
 
 ```bash
-python exescope.py
+python analyzer.py
 ```
 
 You'll be prompted for:
